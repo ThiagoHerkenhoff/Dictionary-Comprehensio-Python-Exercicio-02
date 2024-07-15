@@ -1,0 +1,16 @@
+"""
+Objetivo: Criar um dicionário onde as chaves são palavras de uma lista fornecida e os valores são
+os comprimentos dessas palavras.
+
+Instruções:
+
+    Dada uma lista de palavras, usar dictionary comprehension para criar um dicionário onde as chaves 
+    são as palavras e os valores são seus comprimentos.
+    Exibir o dicionário resultante.
+
+"""
+
+palavras = ["Python", "é", "uma", "linguagem", "poderosa"]
+
+comprimento = {palavra: len(palavra) for palavra in palavras}
+print(comprimento)
